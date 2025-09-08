@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Install Teleport
-        uses: teleport-actions/setup@176c25dfcd19cd31a252f275d579822b243e7b9c # pin@v1.0.6
+        uses: teleport-actions/setup@a820ebbf1bc1a496efca348ad21042d6e8df73a6 # pin@v1.1.0
         with:
           version: 11.3.1
       - name: Authorize against Teleport
